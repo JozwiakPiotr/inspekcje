@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogShowReport</class>
+ <widget class="QDialog" name="DialogShowReport">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelReportDate">
+     <property name="text">
+      <string>Data przekazania protokołu kontroli: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelRecomendations">
+     <property name="text">
+      <string>Czy wydano zalecenia: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelOrder">
+     <property name="text">
+      <string>Czy wydano nakaz: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelOrderDeadline">
+     <property name="text">
+      <string>Termin wykonania nakazu:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelPerformedBy">
+     <property name="text">
+      <string>Wykonał:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnGetProtocolFile">
+     <property name="text">
+      <string>Pobierz protokół kontroli</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnBack">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="QIcon::ThemeIcon::GoPrevious"/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

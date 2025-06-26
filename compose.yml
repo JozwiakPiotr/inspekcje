@@ -1,0 +1,9 @@
+services:
+  server:
+    image: piotrmaciejjozwiak/inpsekcje:latest
+    ports:
+      - "5110:8080"
+      
+  database:
+    container_name: database
+    image: piotrmaciejjozwiak/inpsekcjedb:latest

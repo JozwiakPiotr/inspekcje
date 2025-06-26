@@ -7,6 +7,7 @@
 #include <QNetworkAccessManager>
 #include "monument.h"
 #include <QJsonArray>
+#include <QJsonDocument>
 
 struct User{
     int id;

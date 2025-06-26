@@ -3,7 +3,7 @@ name: Build and Release Qt App
 on:
   push:
     tags:
-      - 'v*'  # np. v1.0.0
+      - 'v*'
 
 jobs:
   build-linux:
@@ -47,7 +47,7 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
-          version: 6.9
+          version: 6.8
           arch: win64_msvc2019_64
 
       - name: Configure
